@@ -35,12 +35,12 @@ python app_flask.py
 http://127.0.0.1:8000/api/v1/hello-world-16
 
 
-# Приклад запиту
+## Приклад запиту
 curl -X 'GET' \
   'http://127.0.0.1:8000/api/v1/hello-world-16' \
   -H 'accept: application/json'
   
-# Очікувана відповідь
+## Очікувана відповідь
 {
   "message": "Hello World 16"
 }
